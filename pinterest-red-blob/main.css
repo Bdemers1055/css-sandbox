@@ -1,10 +1,13 @@
 .container {
-    position: relative;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 40px;
 }
 .blob {
     background-color: rgb(189,8,29);
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     border-radius: 100% 100% 100% 20%;
 }
 .call-to-action {
@@ -12,7 +15,7 @@
     position: absolute;
     bottom: 100px;
     left: 20px;
-    width: 220px;
+    width: 200px;
     color: white;
     font-weight: 500;
 }
@@ -25,7 +28,7 @@
     left: 20px;
     right: 50px;
     border-radius: 5px;
-    font-size: 1.3em;
+    font-size: 1.0em;
     color: white;
     border: solid white 1px;
     background-color: transparent;
