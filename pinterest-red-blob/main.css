@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .container {
     position: absolute;
     right: 0;
@@ -13,7 +16,7 @@
 .call-to-action {
     padding-bottom: 0px;
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 20px;
     width: 200px;
     color: white;
@@ -21,10 +24,11 @@
 }
 
 .btn {
+    cursor: pointer;
     padding: 10px 20px;
     display: block;
     position: absolute;
-    bottom: 50px;
+    bottom: 40px;
     left: 20px;
     right: 50px;
     border-radius: 5px;
