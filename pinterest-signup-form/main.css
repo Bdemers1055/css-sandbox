@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 40px;
+}
+.blob {
+    background-color: rgb(189,8,29);
+    width: 280px;
+    height: 280px;
+    border-radius: 100% 100% 100% 20%;
+}
+.call-to-action {
+    padding-bottom: 0px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    width: 200px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    right: 50px;
+    border-radius: 5px;
+    font-size: 1.0em;
+    color: white;
+    border: solid white 1px;
+    background-color: transparent;
+}
+
+.primary-font {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto Oxygen-Sans", Ubuntu, Cantarell, "“Fira Sans”", "“Droid Sans”", "Helvetica Neue", Helvetica, "\\30D2ラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "\\30E1イリオ", Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif;
+}
