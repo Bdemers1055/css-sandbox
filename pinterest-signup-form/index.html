@@ -4,14 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Pinterest Red Blob</title>
+        <title>Pinterest Sign Up Form</title>
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
-        <div class="container">
-            <div class="blob">
-                <h3 class="call-to-action primary-font m20">Pinterest helps you find ideas to try.</h3>
-                    <button class="btn primary-font m20">How it Works</button>
+        <div class="bg">
+            <div class="overlay">
+                <div class="container pt50 roundcorners">
+                    <div class="flexcenter m20">
+                        <svg height="50" viewBox="-3 -3 82 82" width="50"><circle cx="38" cy="38" fill="white" r="40"></circle><path d="M27.5 71c3.3 1 6.7 1.6 10.3 1.6C57 72.6 72.6 57 72.6 37.8 72.6 18.6 57 3 37.8 3 18.6 3 3 18.6 3 37.8c0 14.8 9.3 27.5 22.4 32.5-.3-2.7-.6-7.2 0-10.3l4-17.2s-1-2-1-5.2c0-4.8 3-8.4 6.4-8.4 3 0 4.4 2.2 4.4 5 0 3-2 7.3-3 11.4C35.6 49 38 52 41.5 52c6.2 0 11-6.6 11-16 0-8.3-6-14-14.6-14-9.8 0-15.6 7.3-15.6 15 0 3 1 6 2.6 8 .3.2.3.5.2 1l-1 3.8c0 .6-.4.8-1 .4-4.4-2-7-8.3-7-13.4 0-11 7.8-21 22.8-21 12 0 21.3 8.6 21.3 20 0 12-7.4 21.6-18 21.6-3.4 0-6.7-1.8-7.8-4L32 61.7c-.8 3-3 7-4.5 9.4z" fill="#BD081C" fill-rule="evenodd"></path></svg>
+                    </div>
+                    <h1 class="heading flexcenter primary-font m0 txtdark">Welcome to Pinterest</h1>
+                    <p class="flexcenter primary-font subheading m0 txtlight">Find new ideas to try</p>
+                    <form class="m20 flexcenter" action="index.html" method="get">
+                        <div>
+                            <input class="primary-font txtlight borderlight p10 m20 inputfield roundcorners" placeholder="Email" type="email" name="email" />
+                        </div>
+                        <div>
+                            <input class="primary-font txtlight borderlight p10 inputfield roundcorners" placeholder="Create a password" type="password" name="password" />
+                        </div>
+                        <div>
+                            <button class="btn primary-font txtwhite p10 m20 roundcorners" type="submit">Continue</button>
+                        </div>
+                        <p class="textcenter primary-font m20 pb50 txtlight">By continuing, you agree to Pinterest's <a class="txtdark" href="#">Terms of Service</a>, <a class="txtdark" href="#">Privacy Policy</a></p>
+                    </form>
+                    <section>
+                        <hr />
+                        <a class="flexcenter primary-font txtdark m20 roundcorners" href="#">Continue as a business</a>
+                    </section>
+                </div>
             </div>
         </div>
     </body>
