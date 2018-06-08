@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: grey;
+}
+
+.nav-container {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav-container ul {
+    width: 100%;
+}
+.nav-container li {
+    width: 20%;
+    display: inline;
+    list-style: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav-container li a {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
